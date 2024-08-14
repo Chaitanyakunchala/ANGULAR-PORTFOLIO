@@ -1,40 +1,40 @@
 <header class="header">
-    <div class="container">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-      <a href="" class="logo">
-        <span class="logo-bracket">&lt;</span>
-        <span class="logo-name">Chaitu</span>
-        <span class="logo-bracket">/&gt;</span>
+  <div class="container">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <a href="" class="logo">
+      <span class="logo-bracket">&lt;</span>
+      <span class="logo-name">Chaitu</span>
+      <span class="logo-bracket">/&gt;</span>
+    </a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn">
+      <span class="navicon"></span>
+    </label>
+    <nav class="menu">
+      <a class="nav-link home" routerLink="/home" routerLinkActive="active" aria-current="page">
+        <i class="fas fa-home"></i>
+        <span>Home</span>
       </a>
-      <input class="menu-btn" type="checkbox" id="menu-btn" />
-      <label class="menu-icon" for="menu-btn">
-        <span class="navicon"></span>
-      </label>
-      <nav class="menu">
-        <a class="nav-link" routerLink="/" routerLinkActive="active" aria-current="page">
-          <i class="fas fa-home"></i>
-          <span>Home</span>
-        </a>
-        <a class="nav-link" routerLink="/about" routerLinkActive="active">
-          <i class="fas fa-user"></i>
-          <span>About</span>
-        </a>
-        <a class="nav-link" routerLink="/projects" routerLinkActive="active">
-          <i class="fas fa-project-diagram"></i>
-          <span>Project</span>
-        </a>
-        <a class="nav-link" routerLink="/skills" routerLinkActive="active">
-          <i class="fas fa-cogs"></i>
-          <span>Skills</span>
-        </a>
-        <a class="nav-link" routerLink="/resume" routerLinkActive="active">
-          <i class="fas fa-file-alt"></i>
-          <span>Resume</span>
-        </a>
-        <a class="nav-link" routerLink="/contact" routerLinkActive="active">
-          <i class="fas fa-envelope"></i>
-          <span>Contact</span>
-        </a>
-      </nav>
-    </div>
-  </header>
+      <a class="nav-link about" routerLink="/about" routerLinkActive="active">
+        <i class="fas fa-user"></i>
+        <span>About</span>
+      </a>
+      <a class="nav-link projects" routerLink="/projects" routerLinkActive="active">
+        <i class="fas fa-project-diagram"></i>
+        <span>Project</span>
+      </a>
+      <a class="nav-link skills" routerLink="/skills" routerLinkActive="active">
+        <i class="fas fa-cogs"></i>
+        <span>Skills</span>
+      </a>
+      <a class="nav-link resume" routerLink="/resume" routerLinkActive="active">
+        <i class="fas fa-file-alt"></i>
+        <span>Resume</span>
+      </a>
+      <a class="nav-link contact" routerLink="/contact" routerLinkActive="active">
+        <i class="fas fa-envelope"></i>
+        <span>Contact</span>
+      </a>
+    </nav>
+  </div>
+</header>

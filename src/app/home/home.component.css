@@ -5,7 +5,7 @@
   background: linear-gradient(135deg, #002c2c, #3e61ec); /* Diagonal gradient background */
   color: #fff;
   overflow: hidden; /* Ensure background shapes are visible */
-  height: 100vh;
+  height: 80vh;
 
 }
 
@@ -19,6 +19,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
