@@ -14,7 +14,7 @@
   margin: 0 auto;
   background: linear-gradient(135deg, #002c2c, #3e61ec);/* Optional: for better text readability */
   padding: 20px;
-  border-radius: px; /* Optional: rounded corners */
+  border-radius: 30px; /* Optional: rounded corners */
 }
 
 .resume h2 {
