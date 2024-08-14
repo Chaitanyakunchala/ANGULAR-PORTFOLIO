@@ -1,0 +1,179 @@
+/* Home Section */
+.home-section {
+  position: relative;
+  padding: 60px 0;
+  background: linear-gradient(135deg, #002c2c, #3e61ec); /* Diagonal gradient background */
+  color: #fff;
+  overflow: hidden; /* Ensure background shapes are visible */
+  height: 100vh;
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 250px; /* Increased width */
+  height: 250px; /* Increased height */
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border: 4px solid transparent; /* Border size and color */
+  transition: transform 0.3s ease, border-color 0.3s ease; /* Transition for hover effect */
+}
+
+.profile-image:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+  border-color: #fff; /* White border on hover */
+}
+
+.profile-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-color: #fff; /* White border on hover */
+}
+
+.profile-text {
+  text-align: center;
+}
+
+.text-one {
+  font-size: 2em;
+  margin: 0;
+}
+
+.text-two {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.profile-name {
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+.bio {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px; /* Adds space between buttons */
+  margin-bottom: 20px; /* Adds space below the button container */
+  justify-content: center; /* Centers buttons horizontally */
+  align-items: center; /* Centers buttons vertically */
+}
+.btn {
+  display: inline-block;
+  padding: 10px 40px;
+  font-size: 1em;
+  border-radius: px;
+  text-decoration: none;
+  align-items: center;
+  background-position: 20px;
+}
+
+.btn-primary {
+  background-color: #1ac8cb;
+  color: #a9d2d7af;
+}
+
+.btn-primary:hover {
+  background-color: #002956;
+}
+
+.btn-outline {
+  border: 2px solid #f8f5f4;
+  color: #12caaf;
+}
+
+.btn-outline:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+.social-link:hover {
+  color: #007bff;
+}
+
+.bg-shapes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.shape {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  opacity: 0.3; /* Slightly visible shapes */
+}
+
+.shape-1 {
+  width: 200px;
+  height: 200px;
+  top: 10%;
+  left: 10%;
+}
+
+.shape-2 {
+  width: 150px;
+  height: 150px;
+  top: 20%;
+  right: 15%;
+}
+
+.shape-3 {
+  width: 250px;
+  height: 250px;
+  bottom: 10%;
+  left: 25%;
+}
+
+.shape-4 {
+  width: 300px;
+  height: 300px;
+  top: 30%;
+  right: 30%;
+}
+
+.shape-5 {
+  width: 100px;
+  height: 100px;
+  bottom: 20%;
+  left: 10%;
+}
+
+.shape-6 {
+  width: 180px;
+  height: 180px;
+  bottom: 30%;
+  right: 25%;
+}

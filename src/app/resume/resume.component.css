@@ -1,0 +1,52 @@
+.resume {
+  padding: 200px 100px;
+  text-align: center;
+  background: linear-gradient(135deg, #0a0606, #2d14d2);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  height
+}
+
+.resume .container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #002c2c, #3e61ec);/* Optional: for better text readability */
+  padding: 20px;
+  border-radius: px; /* Optional: rounded corners */
+}
+
+.resume h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.resume p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.fas.fa-download {
+  margin-right: 8px;
+}
