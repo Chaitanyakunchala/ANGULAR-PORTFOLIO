@@ -1,25 +1,28 @@
 .resume {
-  padding: 200px 100px;
+  padding: 0;
   text-align: center;
-  background: linear-gradient(135deg, #0a0606, #2d14d2);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #fff;
-  height: 100vh;
 }
 
-.resume .container {
-  max-width: 800px;
-  margin: 0 auto;
-  background: linear-gradient(135deg, #002c2c, #3e61ec);/* Optional: for better text readability */
-  padding: 20px;
-  border-radius: 30px; /* Optional: rounded corners */
+.resume-image {
+  width: 270px;
+  height: 400px;
+  margin-bottom: 20px; /* Space between the image and the button */
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .resume h2 {
   font-size: 2em;
-  margin-bottom: 20px;
+  margin-bottom: 10px; /* Space between heading and paragraph */
   color: #fff;
 }
 
@@ -37,9 +40,8 @@
   color: #fff;
   background-color: #007bff;
   border: none;
-  border-radius: 5px;
+  border-radius: 40px;
   text-decoration: none;
-  margin-top: 20px;
   transition: background-color 0.3s ease;
 }
 
@@ -49,4 +51,61 @@
 
 .fas.fa-download {
   margin-right: 8px;
+}
+.bg-shapes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.shape {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  opacity: 0.3; /* Slightly visible shapes */
+}
+
+.shape-1 {
+  width: 200px;
+  height: 200px;
+  top: 10%;
+  left: 10%;
+}
+
+.shape-2 {
+  width: 150px;
+  height: 150px;
+  top: 20%;
+  right: 15%;
+}
+
+.shape-3 {
+  width: 250px;
+  height: 250px;
+  bottom: 10%;
+  left: 25%;
+}
+
+.shape-4 {
+  width: 300px;
+  height: 300px;
+  top: 30%;
+  right: 30%;
+}
+
+.shape-5 {
+  width: 100px;
+  height: 100px;
+  bottom: 20%;
+  left: 10%;
+}
+
+.shape-6 {
+  width: 180px;
+  height: 180px;
+  bottom: 30%;
+  right: 25%;
 }

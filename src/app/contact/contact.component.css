@@ -1,184 +1,234 @@
 body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #19002c, #2d0353);
-            color: #fff;
-            margin: 0;
-            padding: 0;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    font-family: 'Arial', sans-serif;
+    /* background-color: #19002c; */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
 
-        .contact {
-            width: 100%;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 40px;
-            background-color: rgba(45, 3, 83, 0.8);
-            border-radius: 20px;
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-        }
+.contact {
+    padding: 60px 0;
+    text-align: center;
+    /* background-color: #19002c; */
+}
 
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
-        h2 {
-            font-size: 3em;
-            margin-bottom: 30px;
-            color: #007bff;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        }
+.chaitu {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
-        .chaitu {
-            text-align: center;
-            font-size: 1.2em;
-            font-family: 'Times New Roman', Times, serif;
-            color: #f0f8ff;
-            margin-bottom: 30px;
-            line-height: 1.6;
-        }
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007bff;
+}
 
-        form {
-            width: 100%;
-            max-width: 500px;
-            background-color: rgba(255, 255, 255, 0.1);
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-        }
+form {
+    /* background-color: #2d0353; */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
 
-        .form-group {
-            position: relative;
-            margin-bottom: 30px;
-        }
+.form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
 
-        .form-group i {
-            position: absolute;
-            top: 50%;
-            left: 15px;
-            transform: translateY(-50%);
-            color: #007bff;
-            font-size: 1.3em;
-        }
+.form-group i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #007bff;
+    font-size: 1.2em;
+}
 
-        input[type="text"], input[type="email"], textarea {
-            width: 100%;
-            padding: 15px 15px 15px 50px;
-            border: none;
-            border-bottom: 2px solid #007bff;
-            background-color: rgba(255, 255, 255, 0.1);
-            color: #fff;
-            font-size: 1.1em;
-            transition: all 0.3s ease;
-            border-radius: 5px;
-        }
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 80%;
+    padding: 10px 10px 10px 40px;
+    border: none;
+    border-bottom: 2px solid #007bff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1em;
+    transition: border-color 0.3s;
+    outline: none;
+}
 
-        input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
-            background-color: rgba(255, 255, 255, 0.2);
-            box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
-        }
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-bottom-color: #0056b3;
+}
 
-        label {
-            position: absolute;
-            top: 50%;
-            left: 50px;
-            transform: translateY(-50%);
-            font-size: 1.1em;
-            color: #ccc;
-            pointer-events: none;
-            transition: all 0.3s ease;
-        }
+label {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    font-size: 20px !important;
+    color:white;
+    pointer-events: none;
+    transition: all 0.3s;
+}
 
-        input:focus ~ label, textarea:focus ~ label,
-        input:not(:placeholder-shown) ~ label, textarea:not(:placeholder-shown) ~ label {
-            top: -15px;
-            left: 15px;
-            font-size: 0.9em;
-            color: #007bff;
-        }
+input:focus ~ label,
+textarea:focus ~ label,
+input:not(:placeholder-shown) ~ label,
+textarea:not(:placeholder-shown) ~ label {
+    top: -10px;
+    left: 10px;
+    font-size: 0.85em;
+    color: #007bff;
+}
 
-        button[type="submit"] {
-            display: inline-flex;
-            align-items: center;
-            padding: 12px 30px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 50px;
-            font-size: 1.2em;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-top: 20px;
-        }
+button[type="submit"] {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+}
 
-        button[type="submit"]:hover {
-            background-color: #0056b3;
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
-        }
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
 
-        button[type="submit"] i {
-            margin-right: 10px;
-        }
+button[type="submit"] i {
+    margin-right: 8px;
+}
 
-        .social-links {
-            margin-top: 40px;
-            text-align: center;
-        }
+.social-links {
+    margin-top: 30px;
+    text-align: center;
+}
 
-        .social-button {
-            display: inline-block;
-            width: 50px;
-            height: 50px;
-            line-height: 50px;
-            margin: 0 15px;
-            background-color: #fff;
-            color: #19002c;
-            border-radius: 50%;
-            text-align: center;
-            font-size: 1.5em;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-        }
+.social-button {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 10px;
+    background-color: #fff;
+    color: #19002c;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.5em;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
 
-        .social-button:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-        }
+.social-button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
 
-        .social-button.instagram { background-color: #E4405F; color: #fff; }
-        .social-button.linkedin { background-color: #0077B5; color: #fff; }
-        .social-button.github { background-color: #333; color: #fff; }
+.social-button.instagram {
+    background-color: #E4405F; /* Instagram color */
+}
 
-        @media (max-width: 768px) {
-            .contact {
-                padding: 20px;
-            }
+.social-button.linkedin {
+    background-color: #0077B5; /* LinkedIn color */
+}
 
-            form {
-                padding: 30px;
-            }
+.social-button.github {
+    background-color: #333; /* GitHub color */
+}
 
-            h2 {
-                font-size: 2.5em;
-            }
+@media (max-width: 600px) {
+    form {
+        padding: 20px;
+    }
 
-            .chaitu {
-                font-size: 1em;
-            }
+    h2 {
+        font-size: 2em;
+    }
 
-            .social-button {
-                width: 40px;
-                height: 40px;
-                line-height: 40px;
-                font-size: 1.2em;
-                margin: 0 10px;
-            }
-        }
+    label {
+        font-size: 0.8em;
+    }
+
+    input:focus ~ label,
+    textarea:focus ~ label,
+    input:not(:placeholder-shown) ~ label,
+    textarea:not(:placeholder-shown) ~ label {
+        font-size: 0.7em;
+    }
+}
+.bg-shapes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .shape {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    opacity: 0.3; /* Slightly visible shapes */
+  }
+  
+  .shape-1 {
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 10%;
+  }
+  
+  .shape-2 {
+    width: 150px;
+    height: 150px;
+    top: 20%;
+    right: 15%;
+  }
+  
+  .shape-3 {
+    width: 250px;
+    height: 250px;
+    bottom: 10%;
+    left: 25%;
+  }
+  
+  .shape-4 {
+    width: 300px;
+    height: 300px;
+    top: 30%;
+    right: 30%;
+  }
+  
+  .shape-5 {
+    width: 100px;
+    height: 100px;
+    bottom: 20%;
+    left: 10%;
+  }
+  
+  .shape-6 {
+    width: 180px;
+    height: 180px;
+    bottom: 30%;
+    right: 25%;
+  }
